@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+body{
+    background-color: #F5F2F0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo img{
+    width: 90px;
+    position: absolute;
+   margin-top: 30px;
+   margin-left: 40px;
+}
+nav .menu ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Poppins';
+}
+nav .menu::before{
+    content: "";
+    width: 250px;
+    height: 2px;
+    display: block;
+    background-color: #000;
+    position: relative;
+    right: 290px;
+    top: 15px;
+}
+nav .menu{
+    margin-right: 90px;
+    margin-top: 15px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.social i{
+    margin-top: 40px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+/* Container */
+.container .main-image img{
+    width: 450px;
+    height: 660px;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.heading{
+    position: absolute;
+    left: 500px;
+    top: 40px;
+}
+.heading h1{
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px #4d4d4d;
+}
+.heading span{
+   position: relative;
+   top: 100px;
+   right: 190px;
+   color: #4d4d4d;
+}
+.sub-title h3{
+    position: relative;
+    left: 150vh;
+    bottom: 100px;
+    font-size: 22px;
+    color: #4d4d4d;
+    font-weight: 150;
+}
+.container .btn{
+    margin-left: 150vh;
+    background-color: #4d4d4d;
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    bottom: 60px;
+}
+.container .btn p{
+    align-items: center;
+    padding-top: 8px;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.text h4{
+    position: absolute;
+    left: 800px;
+    top: 390px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #000;
+}
+.photo img{
+    width: 350px;
+    position: absolute;
+    top: 450px;
+    left: 800px;
+}
+.service{
+    margin-left: 550px;
+}
+.service ul li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.service .line{
+    background-color: #4d4d4d;
+    width: 2px;
+    height: 230px;
+    position: absolute;
+    left: 520px;
+    top: 430px;
+}
+.service ul .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #4d4d4d;
+    border-radius: 50%;
+    position: absolute;
+    left: 516px ;
+    margin-top: 7px;
+}
+.service ul .active{
+    background-color: #000000dc;
+}
+.icon i{
+    position: absolute;
+    left: 800px;
+    top: 350px;
+    font-size: 40px;
+}
+
+.arrow i{
+    position: absolute;
+    right: 20px;
+    font-size: 60px;
+    top: 500px;
+}

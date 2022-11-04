@@ -1,0 +1,331 @@
+@media screen and (max-width:480px) and (min-width:300px){
+    nav .logo img{
+        width: 90px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    nav .menu::before{
+        display: none;
+    }
+    nav .menu ul{
+        width: 190px;
+        margin-left: 110px;
+    }
+    nav .menu ul li{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .social{
+       align-items: flex-start;
+       margin-left: 10px;
+    }
+    /* Container */
+    .container .heading h1{
+       position: absolute;
+       right: 310px;
+       font-size: 40px;
+    }
+    .container .heading span{
+        left: 60px;
+        top: -20px;
+    }
+    .sub-title h3{
+        left: 250px;
+        font-size: 12px;
+        bottom: 200px;
+    }
+    .container .btn{
+        right: 720px;
+        bottom: 140px;
+        width: 180px;
+        height: 40px;
+    }
+    .container .btn p{
+        font-size: 14px;
+    }
+    .photo img{
+        position: absolute;
+        left: 120px;
+        top: 400px;
+        width: 160px;
+    }
+    .text h4{
+        left: 130px;
+        font-size: 8px;
+        top: 350px;
+        width: 160px;
+        
+    }
+    .service ul li{
+        right: 515px;
+        bottom: 60px;
+        font-size: 12px;
+        position: relative;
+    }
+    .service .line{
+        left: 18px;
+        top: 310px;
+        height: 164px;
+    }
+    .service ul .dot{
+        left: -21px;
+        bottom: 4px;
+    }
+    .icon i{
+        left: 130px;
+        top: 310px;
+        font-size: 30px;
+    }
+    .arrow i{
+        top: 400px;
+        left: 290px;
+        font-size: 50px;
+    }
+    .main-image{
+        display: none;
+    }
+
+
+}
+@media screen and (max-width:576px) and (min-width:481px){
+    nav .menu::before{
+        display: none;
+    }
+    .main-image{
+        display: none;
+    }
+    nav .menu ul{
+        margin-left: 160px;
+        margin-top: 18px;
+        width: 250px;
+    }
+    nav .menu ul li{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .social{
+        align-items: flex-end;
+       margin-right: 60px;
+    }
+    /* Contaner */
+    .container .heading h1{
+        position: absolute;
+        right: 300px;
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .container .heading span{
+        left: 90px;
+        top: -30px;
+    }
+    .sub-title h3{
+        left: 300px;
+        font-size: 16px;
+        bottom: 170px;
+    }
+    .container .btn{
+        right: 650px;
+        bottom: 140px;
+        width: 160px;
+        height: 40px;
+    }
+    .container .btn p{
+        font-size: 14px;
+    }
+    .photo img{
+        position: absolute;
+        left: 150px;
+        top: 390px;
+        width: 250px;
+    }
+    .text h4{
+        left: 150px;
+        font-size: 12px;
+        top: 350px;
+        width: 450px;
+    }
+    .service ul li{
+        right: 480px;
+        bottom: 160px;
+        font-size: 12px;
+        position: relative;
+    }
+    .service .line{
+        left: 30px;
+        top: 265px;
+        height: 180px;
+    }
+    .service ul .dot{
+        left: -45px;
+        bottom: 6px;
+        width: 13px;
+        height: 13px;
+    }
+    .icon i{
+        left: 165px;
+        top: 300px;
+        font-size: 40px;
+    }
+    .arrow i{
+        top: 450px;
+        left: 420px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:577px){
+    .container .main-image img{
+        width: 300px;
+    }
+    nav .menu ul{
+        width: 300px;
+        margin-left: 350px;
+    }   
+    .social{
+        align-items: flex-end;
+        margin-right: -190px;
+    }
+    /* conatiner */
+    .container .heading h1{
+        position: absolute;
+        margin-top: 30px;
+        font-size: 60px;
+        right: -20px;
+    }
+    .container .heading span{
+        left: 90px;
+        top: -30px;
+    }
+    .sub-title h3{
+        left: 610px;
+        font-size: 16px;
+        bottom: 140px;
+    }
+    .container .btn{
+        right: 450px;
+        bottom: 9   0px;
+    }
+    .service ul li{
+        right: 180px;
+        bottom: 50px;
+        font-size: 16px;
+        position: relative;
+    }
+    .service .line{
+        left: 330px;
+        top: 365px;
+        height: 180px;
+    }
+    .service ul .dot{
+        left: -45px;
+        bottom: 6px;
+        width: 13px;
+        height: 13px;
+    }
+    .photo img{
+        position: absolute;
+        left: 520px;
+        top: 450px;
+        width: 250px;
+    }
+    .text h4{
+        left: 520px;
+        font-size: 12px;
+        top: 400px;
+        width: 450px;
+    }
+    .icon i{
+        left: 520px;
+        top: 360px;
+        font-size: 40px;
+    }
+    .arrow i{
+        top: 450px;
+        left: 790px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:769px){
+    .container .main-image img{
+        width: 300px;
+    }
+    nav .menu ul{
+        width: 300px;
+        margin-left: 490px;
+    }   
+    .social{
+        align-items: flex-end;
+        margin-right: -190px;
+    }
+    nav .menu::before{
+        content: "";
+        width: 150px;
+        height: 2px;
+        display: block;
+        background-color: #000;
+        position: relative;
+        left: 330px;
+        top: 15px;
+    }
+    .social{
+        align-items: flex-end;
+        margin-right: -130px;
+    }
+    /* conatiner */
+    .container .heading h1{
+        position: absolute;
+        margin-top: 30px;
+        font-size: 80px;
+        right: -60px;
+    }
+    .container .heading span{
+        left: 90px;
+        top: -40px;
+    }
+    .sub-title h3{
+        left: 650px;
+        font-size: 20px;
+        bottom: 100px;
+    }
+    .container .btn{
+        right: 300px;
+        bottom: 50px;
+    }
+    .service ul li{
+        right: 180px;
+        bottom: 50px;
+        font-size: 16px;
+        position: relative;
+    }
+    .service .line{
+        left: 330px;
+        top: 365px;
+        height: 180px;
+    }
+    .service ul .dot{
+        left: -45px;
+        bottom: 6px;
+        width: 13px;
+        height: 13px;
+    }
+    .photo img{
+        position: absolute;
+        left: 520px;
+        top: 450px;
+        width: 350px;
+    }
+    .text h4{
+        left: 520px;
+        font-size: 16px;
+        top: 400px;
+        width: 450px;
+    }
+    .icon i{
+        left: 520px;
+        top: 360px;
+        font-size: 40px;
+    }
+    .arrow i{
+        top: 450px;
+        left: 890px;
+    }
+}
