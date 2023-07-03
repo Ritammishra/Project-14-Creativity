@@ -6,7 +6,7 @@
 <hr>
 
 ![image](./Thumbnail/Thumbnail.png)
-
+[Live Preview](https://project-creativity-14.netlify.app/)
 <hr>
 
 ## Features
